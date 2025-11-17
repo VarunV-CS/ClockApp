@@ -16,7 +16,7 @@ function Stopwatch(){
     }
 
     return () => {
-      clearInsterval(intervalIdRef.current);
+      clearInterval(intervalIdRef.current);
     }
 
   }, [isRunning]);
@@ -47,7 +47,7 @@ function Stopwatch(){
     milliseconds = String(milliseconds). padStart(2, "0");
 
 
-    return '${hours}:${minutes}:${seconds}:${milliseconds}';
+    return '${minutes}:${seconds}:${milliseconds}';
   }
 
   return (

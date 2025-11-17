@@ -7,11 +7,8 @@ import Stopwatch from './pages/Stopwatch.jsx'
 function App() {
 
   return (
-    <>
     <Stopwatch/>
-    <Stopwatch/>
-    <Stopwatch/>
-    </>
+
   );
 
 }
