@@ -89,6 +89,12 @@ button:focus-visible {
 }
 
 .controls{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.control-btn {
   font-size: 1.5rem;
   font-weight: bold;
   padding: 10px 20px;
